@@ -102,7 +102,11 @@
   .two-column__paragraph{
     margin-bottom: 30px;
     line-height: 34px;
-    font-size: 24px;}
+    font-size: 24px;
+  }
+  .two-column__paragraph:last-child{
+    margin-bottom: 0;
+  }
   .span-accent{
     font-weight: bold;
   }
