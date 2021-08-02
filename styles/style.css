@@ -193,8 +193,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-}
-.feynman__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -238,7 +236,6 @@
 .footer__columns {
   width: 90%;
   display: flex;
-  margin: 0;
   padding: 0;
   list-style-type: none;
   margin: 0 auto;
@@ -250,7 +247,6 @@
   flex-direction: column;
 }
 .footer__column-links {
-  margin: 0;
   list-style-type: none;
   padding: 0;
   display: flex;
