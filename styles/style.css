@@ -76,7 +76,6 @@
 /*description-begin*/
 .two-columns {
   padding: 0;
-  list-style: none;
   width: 80%;
   margin: 100px auto 0;
   display: flex;
@@ -95,7 +94,6 @@
 }
 .two-columns__main-text {
   margin: 0;
-  list-style: none;
   padding: 0;
   min-width: 784px;
   width: 80%;
