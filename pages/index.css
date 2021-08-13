@@ -11,6 +11,7 @@
 @import url(/Blocks/logo/logo.css);
 @import url(/Blocks/logo/_place_header/logo_place_header.css);
 @import url(/Blocks/logo/_place_footer/logo_place_footer.css);
+@import url(/Blocks/description/description.css);
 @import url(/Blocks/two-columns/two-columns.css);
 @import url(/Blocks/two-columns/__brief/two-columns__brief.css);
 @import url(/Blocks/two-columns/__main-text/two-columns__main-text.css);
