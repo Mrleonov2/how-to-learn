@@ -19,11 +19,11 @@
 @import url(/Blocks/techniques/techniques.css);
 @import url(/Blocks/section-title/section-title.css);
 @import url(/Blocks/section-subtitle/section-subtitle.css);
-@import url(/Blocks/techniques/cards/cards.css);
-@import url(/Blocks/techniques/cards/__item/cards__item.css);
-@import url(/Blocks/techniques/cards/__image/cards__image.css);
-@import url(/Blocks/techniques/cards/__title/cards__title.css);
-@import url(/Blocks/techniques/cards/__description/cards__description.css);
+@import url(/Blocks/cards/cards.css);
+@import url(/Blocks/cards/__item/cards__item.css);
+@import url(/Blocks/cards/__image/cards__image.css);
+@import url(/Blocks/cards/__title/cards__title.css);
+@import url(/Blocks/cards/__description/cards__description.css);
 @import url(/Blocks/video/video.css);
 @import url(/Blocks/video/iframe/iframe.css);
 @import url(/Blocks/oakley/oakley.css);
