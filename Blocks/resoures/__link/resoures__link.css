@@ -1,6 +1,10 @@
 .resoures__link{
-opacity: 1;
+background-color: transparent;
+display: inline-block;
+width: 270px;
+height: 38px;
 }
 .resoures__link:hover{
-  opacity: 0;
+background-color: rgba(0, 102, 255, 0.5);
+
 }
