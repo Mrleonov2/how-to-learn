@@ -21,7 +21,7 @@
           src="images/header-image.png"
           alt="Чердак-Иллюстрация"
         />
-        <div class="header__square-pic rotate-element"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -117,25 +117,21 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="iframes">
+          <div class="video__iframes">
             <iframe
-              class="iframe"
-              width="560"
-              height="315"
+              class="video__iframe"
+
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
             </iframe>
             <iframe
-              class="iframe"
-              width="560"
-              height="315"
+              class="video__iframe"
+
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
@@ -223,13 +219,13 @@
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
             </p>
-            <span class="khan__quote-autor">Джордж Лукас</span>
+            <p class="khan__quote-autor">Джордж Лукас</p>
             <p class="khan__quote-autor-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img
                 src="images/khan-book.jpg"
                 class="khan__book-pic"
-                alt="Весь мир - школа"
+                alt="Весь мир-школа"
               />
               <a href="" class="khan__buy-link link-style"
                 >Купить книгу &rarr;</a
@@ -306,29 +302,39 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle rotate-element"></div>
+          <div class="kaufman__triangle rotation"></div>
+        </section>
+        <section class="resoures">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
+          <div class="resoures__logo-zone">
+            <a href="#" class="resores__link">
+              <img
+                src="images/resources-arzamas.svg"
+                alt="Арзамас"
+                class="resoures__logo"
+              />
+            </a>
+            <a href="#" class="resores__link"
+              ><img src="images/resources-n1.svg" alt="Н1" class="resoures__logo"
+            /></a>
+            <a href="#" class="resores__link"
+              ><img
+                src="images/resources-strelka.svg"
+                alt="Стрелка"
+                class="resoures__logo"
+            /></a>
+            <a href="#" class="resores__link"
+              ><img
+                src="images/resources-polka.svg"
+                alt="Полька"
+                class="resoures__logo"
+            /></a>
+          </div>
         </section>
       </main>
-      <section class="resoures">
-        <h2 class="section-title">Полезные ресурсы</h2>
-        <p class="section-subtitle">
-          Больше материалов о техниках и лайфхаках обучения
-        </p>
-        <div class="resoures__logo-zone">
-          <img
-            src="images/resources-arzamas.svg"
-            alt=""
-            class="resoures__logo"
-          />
-          <img src="images/resources-n1.svg" alt="" class="resoures__logo" />
-          <img
-            src="images/resources-strelka.svg"
-            alt=""
-            class="resoures__logo"
-          />
-          <img src="images/resources-polka.svg" alt="" class="resoures__logo" />
-        </div>
-      </section>
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
@@ -370,7 +376,7 @@
                     class="footer__social-icon"
                     src="images/instagram_color_white.svg"
                     alt="Логотип Instagram"
-                  />Instagram</a
+                  />Инстаграм</a
                 >
               </li>
             </ul>

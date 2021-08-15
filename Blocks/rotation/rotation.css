@@ -8,6 +8,6 @@
 }
 
 /*Вращение*/
-.rotate-element{
+.rotation{
   animation: rotate 20s infinite normal linear;
 }

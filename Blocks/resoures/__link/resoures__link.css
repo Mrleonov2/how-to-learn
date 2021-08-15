@@ -1,0 +1,6 @@
+.resoures__link{
+opacity: 1;
+}
+.resoures__link:hover{
+  opacity: 0;
+}
