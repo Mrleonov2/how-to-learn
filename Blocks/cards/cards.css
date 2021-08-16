@@ -1,8 +1,6 @@
 .cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-flow: row wrap;
   width: 920px;
   list-style-type: none;
   padding: 0;
